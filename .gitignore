@@ -21,3 +21,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+*.iml
+Android-App/.gradle
+Android-App/local.properties
+Android-App/.idea/caches/build_file_checksums.ser
+Android-App/.idea/libraries
+Android-App/.idea/modules.xml
+Android-App/.idea/workspace.xml
+Android-App/.DS_Store
+Android-App/build
+Android-App/captures
+Android-App/.externalNativeBuild
+
