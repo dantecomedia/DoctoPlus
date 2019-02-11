@@ -1,32 +1,116 @@
-.App {
-  text-align: center;
+body{
+  background: #163A53;
+}
+.App{
+  margin: 0 auto;
+}
+.Welcome{
+  background: #102239;
+  float: left;
+  min-width: 50%;
+  max-width: 50%;
+  height: 100vh;
+  -webkit-clip-path: polygon(0px 140%,100% 40%,100% -40%,0px 0px);
+  clip-path: polygon(0px 140%,100% 40%,100% -40%,0px 0px);
+}
+.plus{
+  position: absolute;
+  top: 17%;
+}
+.UserInfo{
+  background: #F1F2F3;
+  float: right;
+  min-width: 50%;
+  max-width: 50%;
+  height: 100vh;
+  color: #ffffff;
+}
+.Symptoms{
+  background: #F1F2F3;
+  float: right;
+  min-width: 50%;
+  max-width: 50%;
+  height: 100vh;
+  color: #ffffff;
+}
+.header{
+  width:50%;
+  font-family: 'Satisfy', cursive;
+  /* font-family: 'Merienda', cursive; */
+  color:#163A53;
+  font-size: 40px;
+  margin-left: 32%;
+  margin-top: 10vh;
+  padding: 20px;
+}
+.layout{
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 40%;
+  box-shadow: 0px 5px 6px 3px rgb(204, 210, 211);
+  margin-left: 33%;
+  margin-top: 3vh;
+  background: #fff;
+  border: 2px solid #5A73C2;
+}
+#gender{
+  margin-left: -3%;
+}
+.genderText{
+  padding-left: 1%;
+  padding-top: 3%;
+}
+.Result{
+  background: #b44418;
+  float: left;
+  min-width: 50%;
+  height: 100vh;
+  color: #ffffff;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.autosuggest{
+  display: inline;
+  background: #b44418,
+}
+.submitBtn{
+  display: inline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Expansion{
+  position: fixed;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.spinner{
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+.sk-spinner {
+  transform: scale(2);
+  z-index: 1000;
+}
+.constraint{
+  margin-left: 5%;
+  color: #8C8D90;
+  font-size: 14px;
+}
+.DiseaseList{
+  display: inline;
+  width: 45%;
+  float: left;
+  margin-top: 5%;
+  /* background: #b44418; */
+}
+.Chart{
+  display: inline;
+  float: right;
+  margin-top: 5%;
+  padding: 0;
+  /* background: #102239; */
+}
+.apexcharts-canvas{
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
