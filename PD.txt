@@ -1,1 +1,1 @@
-pericardial_effusion_body_substance,44.96864423015518,effusion_pericardial,31.343617514954126,candidiasis,23.687738254890693,
+asthma,52.47181740537854,chronic_obstructive_airway_disease,32.97435282928211,bronchitis,14.553829765339355,
