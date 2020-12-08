@@ -14,7 +14,7 @@
     "chart.js": "^2.7.3",
     "downshift": "^3.2.2",
     "express": "^4.16.4",
-    "fast-csv": "^2.4.1",
+    "fast-csv": "^4.3.6",
     "json-loader": "^0.5.7",
     "nodemon": "^1.18.9",
     "react": "^16.8.1",
